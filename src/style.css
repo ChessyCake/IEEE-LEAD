@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    background-image: url(/src/feet.jpg);
+    
+}
+
+.navbar .name{
+    font-family: "Momo Signature", cursive;
+    font-weight: 400;
+   font-style: normal;
+   font-size: x-large;
+   color: whitesmoke;
+   margin-right: 4vw;
+
+}
+
+
+.navbar{
+    padding: 20px;
+    text-align: center;
+    background-color: #8C724F;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 3px solid black;
+    
+}
+
+.navbar a{
+    margin: 15px;
+    padding: 10px;
+     font-size: large;
+     color: whitesmoke;
+}
+
+
+.navbar a:hover{
+  background: #F1D7AF;
+  color: black;
+  border-radius: 20px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+
