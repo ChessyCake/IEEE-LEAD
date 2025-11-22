@@ -7,7 +7,7 @@ body{
     padding: 0;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    background-image: url(/src/nightsky.jpg);
+    background-image: url(nightsky.jpg);
     background-repeat: repeat-x;
     animation: move 15s linear infinite alternate;
     animation-timing-function: ease-in-out;
@@ -207,19 +207,19 @@ a{
 }
 
 .cards .card:nth-child(1) {
-  background-image: url(/src/beach.jpg);
+  background-image: url(beach.jpg);
   transform: rotate(-30deg);
   z-index: 1;
 }
 
 .cards .card:nth-child(2) {
-  background-image: url(/src/campfire.jpg);
+  background-image: url(campfire.jpg);
   transform: rotate(00deg);
   z-index: 2;
 }
 
 .cards .card:nth-child(3) {
-  background-image: url(/src/garden.jpg);
+  background-image: url(garden.jpg);
   transform: rotate(30deg);
   z-index: 1;
 }
@@ -278,19 +278,19 @@ a{
 
     .card:nth-child(1) {
       z-index: 1;
-      background: url(/src/beach.jpg);
+      background: url(beach.jpg);
        transform: rotate(-30deg) translateX(-60px);
     }
 
     .card:nth-child(2) {
-        background: url(/src/campfire.jpg);
+        background: url(campfire.jpg);
         transform: rotate(0deg) translateX(0);
       z-index: 2;
     }
 
     .card:nth-child(3) {
       z-index: 3;
-      background: url(/src/garden.jpg);
+      background: url(garden.jpg);
       transform: rotate(30deg) translateX(60px);
     }
    
