@@ -174,16 +174,22 @@
     });
 
 
-    document.addEventListener("scroll", () => {
-        document.querySelectorAll(".reveal").forEach(elem => {
-            const rect = elem.getBoundingClientRect().top;
-            if (rect < window.innerHeight - 100) {
-                elem.classList.add("active");
-            }
-        });
-    });
-
     document.getElementById("year").textContent = new Date().getFullYear();
+
+
+document.addEventListener("scroll", () => {
+    document.querySelectorAll(".reveal").forEach(elem => {
+        const rect = elem.getBoundingClientRect().top;
+        if (rect < window.innerHeight - 100) {
+            elem.classList.add("active");
+        }
+    });
+});
+
+// FIX: Trigger reveal on initial load
+window.addEventListener("load", () => {
+    document.dispatchEvent(new Event("scroll"));
+});
 
 
 const audio = document.getElementById("guitar-audio");
